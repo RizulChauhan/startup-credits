@@ -11,7 +11,7 @@ entity:
   category: hosting-infra
 profile:
   summary: OVHcloud is a cloud provider offering public cloud, hosted private cloud, dedicated servers, and infrastructure services with open technology and data sovereignty.
-  description: OVHcloud provides open and reversible cloud infrastructure services including public cloud, hosted private cloud, VPS, and dedicated servers.
+  description: OVHcloud provides public cloud, hosted private cloud, dedicated servers, and infrastructure solutions with open technology and data sovereignty.
   links:
     site: https://startup.ovhcloud.com/en/startups/
 sources:
@@ -58,22 +58,10 @@ offers:
         kind: none
     eligibility:
       rule:
-        kind: all
-        rules:
-          - criterion_id: cri_01
-            fact: company.stage
-            kind: predicate
-            operator: in
-            statement: Start level gives selected pre-seed & seed startups 12 months of access to build on our cloud for free.
-            value:
-              type: string-set
-              values:
-                - pre-seed
-                - seed
-          - criterion_id: cri_02
-            kind: manual
-            reason: not-machine-evaluable
-            statement: The project proposed has been launched and has a functional website.
+        criterion_id: cri_01
+        kind: manual
+        reason: vendor-discretion
+        statement: Start level gives selected pre-seed & seed startups 12 months of access to build on our cloud for free.
     roles:
       terms_authority_entity_id: ent_01m5kaxxm9qqx201wx3kgkeaf2
       access_operator_entity_id: ent_01m5kaxxm9qqx201wx3kgkeaf2
