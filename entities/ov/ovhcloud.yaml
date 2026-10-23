@@ -17,8 +17,6 @@ profile:
 sources:
   - source_id: src_5343fe855a30ddd631f5d5ef822a0a39910ef4d9120f94aaa2f4b788a9b0ec3a
     url: https://startup.ovhcloud.com/en/startups/
-  - source_id: src_7311bde34c10a9c31d278eec52d67f47d0968f011f8773f4f18105f682b5759c
-    url: https://startup.ovhcloud.com/en/scaleups/
   - source_id: src_e9e7e97b83792e6c6f735cf5b2f9823847530b86f6362a78355973e676df5a28
     url: https://startup.ovhcloud.com/en/faq-support/
 programs:
@@ -26,10 +24,9 @@ programs:
     program_slug: ovhcloud-startup-program
     program_slug_aliases: []
     title: OVHcloud Startup Program
-    summary: The OVHcloud Startup Program gives selected startups and scaleups 12 months of free cloud credits and 1-on-1 technical consultation with an engineer to build or scale on OVHcloud.
+    summary: The OVHcloud Startup Program gives selected startups 12 months of free cloud credits and 1-on-1 technical consultation with an engineer to build and launch on OVHcloud.
     source_ids:
       - src_5343fe855a30ddd631f5d5ef822a0a39910ef4d9120f94aaa2f4b788a9b0ec3a
-      - src_7311bde34c10a9c31d278eec52d67f47d0968f011f8773f4f18105f682b5759c
       - src_e9e7e97b83792e6c6f735cf5b2f9823847530b86f6362a78355973e676df5a28
 offers:
   - offer_id: off_01m5kaxxmd2p62v11pmbm4d7vr
@@ -76,49 +73,4 @@ offers:
       url: https://startup.ovhcloud.com/en/startups/
     source_ids:
       - src_5343fe855a30ddd631f5d5ef822a0a39910ef4d9120f94aaa2f4b788a9b0ec3a
-      - src_e9e7e97b83792e6c6f735cf5b2f9823847530b86f6362a78355973e676df5a28
-  - offer_id: off_01m5kaxxmdh260rmscg99b9zsy
-    program_id: prg_01m5kaxxmd0rc0w3zep0qke8x4
-    offer_slug: scale-level
-    offer_slug_aliases: []
-    title: OVHcloud Startup Program Scale Level Up to €100,000 Credits
-    summary: Provides scaleups with up to €100,000 in free cloud credits valid for 12 months along with up to 20 hours of 1-on-1 engineering support to activate products on OVHcloud.
-    description: Scale level gives scaleups access to up to €100,000 in free cloud credits for 12 months and up to 20 hours of technical consultation with an engineer to accelerate product scaling.
-    lifecycle:
-      status: active
-      effective_from: 2026-10-23T00:00:00.000Z
-    economics:
-      benefits:
-        - benefit_id: ben_01
-          kind: credit
-          description: Up to €100,000 in free cloud credits for infrastructure and cloud services.
-          value:
-            kind: up-to
-            amount:
-              currency: EUR
-              minor_units: 10000000
-          duration:
-            kind: exact
-            value: P1Y
-        - benefit_id: ben_02
-          kind: other
-          description: Up to 20 hours of 1-on-1 time with an engineer for architecture and technical activation.
-      consideration:
-        kind: unknown
-        description: The source record did not establish separate consideration.
-    eligibility:
-      rule:
-        kind: manual
-        reason: not-machine-evaluable
-        criterion_id: cri_01
-        statement: Fast-growing scaleups looking to scale infrastructure on European cloud with personal support and access to market.
-    roles:
-      terms_authority_entity_id: ent_01m5kaxxm9qqx201wx3kgkeaf2
-      access_operator_entity_id: ent_01m5kaxxm9qqx201wx3kgkeaf2
-    access:
-      availability: public
-      method: form
-      url: https://startup.ovhcloud.com/en/scaleups/
-    source_ids:
-      - src_7311bde34c10a9c31d278eec52d67f47d0968f011f8773f4f18105f682b5759c
       - src_e9e7e97b83792e6c6f735cf5b2f9823847530b86f6362a78355973e676df5a28
