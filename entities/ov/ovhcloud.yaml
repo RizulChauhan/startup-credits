@@ -17,3 +17,5 @@ profile:
 sources:
   - source_id: src_9876543210abcdef0123456789abcdef0123456789abcdef0123456789abcdef
     url: https://www.ovhcloud.com/en/
+programs: []
+offers: []
