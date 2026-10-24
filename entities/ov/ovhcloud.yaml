@@ -58,9 +58,15 @@ offers:
     eligibility:
       rule:
         criterion_id: cri_01
-        kind: constant
-        statement: Available for startups applying to the OVHcloud Startup Program
-        value: true
+        fact: company.stage
+        kind: predicate
+        operator: in
+        statement: Must be a pre-seed or seed stage startup.
+        value:
+          type: string-set
+          values:
+            - pre-seed
+            - seed
     roles:
       terms_authority_entity_id: ent_01m5kaxxm9qqx201wx3kgkeaf2
       access_operator_entity_id: ent_01m5kaxxm9qqx201wx3kgkeaf2
