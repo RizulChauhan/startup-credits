@@ -10,6 +10,7 @@ entity:
       valid_from: 2026-10-23T00:00:00.000Z
   category: hosting-infra
 profile:
+  summary: OVHcloud is a European cloud provider delivering hosted private cloud, public cloud, and dedicated servers.
   description: OVHcloud delivers hosted private cloud, public cloud, and dedicated server solutions.
   links:
     site: https://www.ovhcloud.com/en/
@@ -60,15 +61,9 @@ offers:
     eligibility:
       rule:
         criterion_id: cri_01
-        fact: company.stage
-        kind: predicate
-        operator: in
-        statement: Must be a pre-seed or seed stage startup.
-        value:
-          type: string-set
-          values:
-            - pre-seed
-            - seed
+        kind: manual
+        reason: vendor-discretion
+        statement: Applications are reviewed and selected by the OVHcloud Startup Program team.
     roles:
       terms_authority_entity_id: ent_01m5kaxxm9qqx201wx3kgkeaf2
       access_operator_entity_id: ent_01m5kaxxm9qqx201wx3kgkeaf2
