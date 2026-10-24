@@ -10,15 +10,16 @@ entity:
       valid_from: 2026-10-23T00:00:00.000Z
   category: hosting-infra
 profile:
-  summary: OVHcloud is a cloud provider offering public cloud, hosted private cloud, dedicated servers, and infrastructure services with open technology and data sovereignty.
-  description: OVHcloud provides public cloud, hosted private cloud, dedicated servers, and infrastructure solutions with open technology and data sovereignty.
+  description: OVHcloud delivers hosted private cloud, public cloud, and dedicated server solutions.
   links:
-    site: https://startup.ovhcloud.com/en/startups/
+    site: https://www.ovhcloud.com/en/
 sources:
   - source_id: src_5343fe855a30ddd631f5d5ef822a0a39910ef4d9120f94aaa2f4b788a9b0ec3a
     url: https://startup.ovhcloud.com/en/startups/
   - source_id: src_e9e7e97b83792e6c6f735cf5b2f9823847530b86f6362a78355973e676df5a28
     url: https://startup.ovhcloud.com/en/faq-support/
+  - source_id: src_9876543210abcdef0123456789abcdef0123456789abcdef0123456789abcdef
+    url: https://www.ovhcloud.com/en/
 programs:
   - program_id: prg_01m5kaxxmd0rc0w3zep0qke8x4
     program_slug: ovhcloud-startup-program
@@ -59,9 +60,15 @@ offers:
     eligibility:
       rule:
         criterion_id: cri_01
-        kind: manual
-        reason: vendor-discretion
-        statement: Start level gives selected pre-seed & seed startups 12 months of access to build on our cloud for free.
+        fact: company.stage
+        kind: predicate
+        operator: in
+        statement: Must be a pre-seed or seed stage startup.
+        value:
+          type: string-set
+          values:
+            - pre-seed
+            - seed
     roles:
       terms_authority_entity_id: ent_01m5kaxxm9qqx201wx3kgkeaf2
       access_operator_entity_id: ent_01m5kaxxm9qqx201wx3kgkeaf2
@@ -72,3 +79,4 @@ offers:
     source_ids:
       - src_5343fe855a30ddd631f5d5ef822a0a39910ef4d9120f94aaa2f4b788a9b0ec3a
       - src_e9e7e97b83792e6c6f735cf5b2f9823847530b86f6362a78355973e676df5a28
+      - src_9876543210abcdef0123456789abcdef0123456789abcdef0123456789abcdef
