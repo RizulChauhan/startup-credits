@@ -10,6 +10,7 @@ entity:
       valid_from: 2026-10-23T00:00:00.000Z
   category: hosting-infra
 profile:
+  summary: OVHcloud delivers hosted private cloud, public cloud, and dedicated server solutions.
   description: OVHcloud delivers hosted private cloud, public cloud, and dedicated server solutions.
   links:
     site: https://www.ovhcloud.com/en/
@@ -61,8 +62,8 @@ offers:
       rule:
         criterion_id: cri_01
         kind: manual
-        reason: not-machine-evaluable
-        statement: We support any startup that proposes innovative, technical projects that have growth potential, as long as they at least have a Proof of Concept (POC) or Minimum Viable Product (MVP) that can be implemented on our cloud.
+        reason: vendor-discretion
+        statement: Start level gives selected pre-seed & seed startups 12 months of access to build on our cloud for free.
     roles:
       terms_authority_entity_id: ent_01m5kaxxm9qqx201wx3kgkeaf2
       access_operator_entity_id: ent_01m5kaxxm9qqx201wx3kgkeaf2
